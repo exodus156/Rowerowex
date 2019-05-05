@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <!--Zaimportowano Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!--Zaimportowano font awesome dla ikonek do fb, ig, twittera etc.-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="../src/css/materialize.min.css"  media="screen,projection"/>
+
+    <!--Strona jest zoptymalizowana dla urządzeń mobilnych-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Rowerowex - Rowery są naszą pasją</title>
+    <style>
+        #header_Szosowy {
+            background: url(../src/Images/Bikes/szos_h.jpg);
+            background-size: cover;
+            background-position: center;
+            min-height: 500px;
+        }
+    </style>
+</head>
+<body>
+    <!--Tak samo jak poprzednio, header ze zdjęciem i navbarem dla monitorów i telefonów-->
+    <header id="header_Szosowy">
+        <nav class="nav-wrapper deep-orange darken-4">
+            <div class="container">
+                <a href="#" class="brand-logo">Rowerowex - Szosowy</a>
+                <a href="#" class="sidenav-trigger" data-target="mobile-links">
+                    <i class="material-icons">menu</i>
+                </a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="../katalog.html" class="white-text">Powrót</a></li>
+                </ul>
+                <ul class="sidenav deep-orange darken-4" id="mobile-links">
+                    <li><a href="../katalog.html" class="white-text sidenav-close">Powrót</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <!--Tytuł i opis roweru-->
+    <section class="section container">
+        <h2 class="center-align deep-orange-text">Rower Szosowy</h2>
+        <p>Zgodnie z zasadami UCI do zawodów szosowych są dopuszczane tylko pionowe rowery o obu kołach tej samej średnicy
+           (najczęściej 650 lub 700c) z klasycznym układem napędowym, oraz klasyczną ramą.
+
+            Klasyczny układ napędowy składać się musi z zespołu zębatek przednich napędzanych bezpośrednio 
+            za pomocą nóg przy pomocy korb i pedałów. Zębatki przednie są połączone łańcuchem z zespołem zębatek 
+            napędzających bezpośrednio tylne koło. Ograniczenia dotyczące rozmiarów zębatek dotyczą młodszych kategorii wiekowych.</p>
+    </section>
+    <footer class="page-footer grey darken-3">
+      <div class="container">
+        <div class="row">
+          <div class="col l6 s12">
+            <h5>O mnie</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at lacus congue.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at lacus congue, suscipit elit nec, tincidunt orci.</p>
+          </div>
+          <div class="col l4 offset-l2 s12">
+            <h5 class="white-text">Connect</h5>
+            <ul>
+              <li><a class="grey-text text-lighten-3" href="#">Facebook</a></li>
+              <li><a class="grey-text text-lighten-3" href="#">Twitter</a></li>
+              <li><a class="grey-text text-lighten-3" href="#">Linked In</a></li>
+              <li><a class="grey-text text-lighten-3" href="#">Instagram</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright grey darken-4">
+        <div class="container center-align">&copy; 2019 Michał Działek</div>
+      </div>
+    </footer>
+
+    <!--Załadowano jQuery-->
+    <script
+    src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+    crossorigin="anonymous"></script>
+
+    <!--Załadowany skrypty dla materialize-->
+    <script type="text/javascript" src="../src/scripts/materialize.min.js"></script>
+
+    <!--Podpinam własny plik ze skryptami dla pliku index.html-->
+    <script type="text/javascript" src="../src/scripts/index.js"></script>
+</body>
+</html>

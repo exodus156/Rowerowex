@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <!--Zaimportowano Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!--Zaimportowano font awesome dla ikonek do fb, ig, twittera etc.-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="./src/css/materialize.min.css"  media="screen,projection"/>
+
+    <!--Strona jest zoptymalizowana dla urządzeń mobilnych-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Rowerowex - Rowery są naszą pasją</title>
+    <style>
+        #header_katalog {
+            background: url(./src/Images/Header.jpg);
+            background-size: cover;
+            background-position: center;
+            min-height: 500px;
+        }
+    </style>
+</head>
+<body>
+  <!--Tak samo jak poprzednio, header ze zdjęciem i navbarem dla monitorów i telefonów-->
+    <header id="header_katalog">
+        <nav class="nav-wrapper deep-orange darken-4">
+            <div class="container">
+                <a href="#" class="brand-logo">Rowerowex - katalog</a>
+                <a href="#" class="sidenav-trigger" data-target="mobile-links">
+                    <i class="material-icons">menu</i>
+                </a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="Index.html" class="white-text">Powrót</a></li>
+                </ul>
+                <ul class="sidenav deep-orange darken-4" id="mobile-links">
+                    <li><a href="Index.html" class="white-text sidenav-close">Powrót</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <!--Rozpoczyna się katalog rowerów-->
+    <section class="section container" id="katalog_rowerow">
+      <!--pierwszy rząd-->
+      <div class="row">
+        <!--Rozpoczyna się karta, każda z nich ma identyczny układ i styl, różnią się zdjęciami i zawartością-->
+        <div class="col s12 m4">
+          <!--Wielkość karty-->
+          <div class="card small">
+            <!--Zdjęcie w karcie-->
+            <div class="card-image waves-effect waves-block waves-dark">
+              <img class="activator responsive-img" src="./src/Images/Bikes/atb.jpg">
+            </div>
+            <!--Zawartość karty pod zdjęciem-->
+            <div class="card-content">
+              <span class="card-title activator deep-orange-text">ATB<i class="material-icons right">more_vert</i></span>
+              <p><a href="./Bikes/ATB.html" class="btn waves-effect waves-block waves-dark deep-orange" id="atb_puls">Przejdź do strony</a></p>
+            </div>
+            <!--Zawartość karty po kliknięciu na zdjęcie-->
+            <div class="card-reveal">
+              <span class="card-title deep-orange-text">ATB<i class="material-icons right">close</i></span>
+              <p>ATB (eng. All Terrain Bicycle) - rodzaj tzw. roweru górskiego, którego konstrukcja jest tak zaprojektowana, 
+                aby jeździło się nim dobrze we wszelkich możliwych warunkach.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m4">
+          <div class="card small">
+            <div class="card-image waves-effect waves-block waves-dark">
+              <img class="activator responsive-img" src="./src/Images/Bikes/bmx.JPG">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator deep-orange-text">BMX<i class="material-icons right">more_vert</i></span>
+              <p><a href="./Bikes/BMX.html" class="btn waves-effect waves-block waves-dark deep-orange" id="bmx_puls">Przejdź do strony</a></p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title deep-orange-text">BMX<i class="material-icons right">close</i></span>
+              <p>BMX (ang. bicycle motocross) – nazwa roweru i rodzaju kolarstwa, które zostało zapoczątkowane w USA w latach 70.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m4">
+          <div class="card small">
+            <div class="card-image waves-effect waves-block waves-dark">
+              <img class="activator responsive-img" src="./src/Images/Bikes/Elektryk.jpg">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator deep-orange-text">Elektryczny<i class="material-icons right">more_vert</i></span>
+              <p><a href="./Bikes/Elektryczny.html" class="btn waves-effect waves-block waves-dark deep-orange" id="elektryk_puls">Przejdź do strony</a></p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title deep-orange-text">Elektryczny<i class="material-icons right">close</i></span>
+              <p>Rower elektryczny – rodzaj pojazdu jednośladowego napędzanego siłą mięśni i silnikiem elektrycznym.
+                  Co roku w Holandii sprzedaje się około milion rowerów, z czego rowery elektryczne już w 2014 r. 
+                  stanowiły ponad 20%. W 2017 ten współczynnik wynosił już 31%</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--Drugi rząd-->
+      <div class="row">
+        <div class="col s12 m4">
+          <div class="card small">
+            <div class="card-image waves-effect waves-block waves-dark">
+              <img class="activator responsive-img" src="./src/Images/Bikes/goral.jpg">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator deep-orange-text">Górski<i class="material-icons right">more_vert</i></span>
+              <p><a href="./Bikes/Gorski.html" class="btn waves-effect waves-block waves-dark deep-orange" id="goral_puls">Przejdź do strony</a></p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title deep-orange-text">Górski<i class="material-icons right">close</i></span>
+              <p>Rowery górskie (ang. MTB, Mountain Terrain Bike) – nazwa rowerów, których przeznaczeniem jest jazda w terenie trudniejszym,
+                 niż pozwalają na to rowery szosowe czy trekingowe, np. górskie ścieżki, szlaki leśne, specjalne tory przeszkód.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m4">
+          <div class="card small">
+            <div class="card-image waves-effect waves-block waves-dark">
+              <img class="activator responsive-img" src="./src/Images/Bikes/miejski.jpg">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator deep-orange-text">Miejski<i class="material-icons right">more_vert</i></span>
+              <p><a href="./Bikes/Miejski.html" class="btn waves-effect waves-block waves-dark deep-orange" id="miejski_puls">Przejdź do strony</a></p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title deep-orange-text">Miejski<i class="material-icons right">close</i></span>
+              <p>Rower miejski – rower przeznaczony do jazdy w mieście.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m4">
+          <div class="card small">
+            <div class="card-image waves-effect waves-block waves-dark">
+              <img class="activator responsive-img" src="./src/Images/Bikes/Skladak.JPG">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator deep-orange-text">Składak<i class="material-icons right">more_vert</i></span>
+              <p><a href="./Bikes/Skladany.html" class="btn waves-effect waves-block waves-dark deep-orange" id="skladak_puls">Przejdź do strony</a></p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title deep-orange-text">Składak<i class="material-icons right">close</i></span>
+              <p>Rower składany (potocznie składak) – rower, o zmniejszonych rozmiarach, który można łatwo jeszcze zmniejszyć na czas 
+                transportowania lub przechowywania. Zmniejszenie rozmiarów uzyskuje się poprzez stosowanie kół o mniejszej średnicy i 
+                mniejszej ramie. Składanie obejmuje zwykle obniżanie kierownicy i siodełka oraz czasami składanie ramy.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--Trzeci rząd-->
+      <div class="row">
+        <div class="col s12 m4">
+          <div class="card small">
+            <div class="card-image waves-effect waves-block waves-dark">
+              <img class="activator responsive-img" src="./src/Images/Bikes/Szosowy.jpg">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator deep-orange-text">Szosowy<i class="material-icons right">more_vert</i></span>
+              <p><a href="./Bikes/Szosowy.html" class="btn waves-effect waves-block waves-dark deep-orange" id="szosowy_puls">Przejdź do strony</a></p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title deep-orange-text">Szosowy<i class="material-icons right">close</i></span>
+              <p>Rower szosowy – sportowy rower, dostosowywany przede wszystkim do jazdy na twardej drodze.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m4">
+          <div class="card small">
+            <div class="card-image waves-effect waves-block waves-dark">
+              <img class="activator responsive-img" src="./src/Images/Bikes/Tandem.jpg">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator deep-orange-text">Tandem<i class="material-icons right">more_vert</i></span>
+              <p><a href="./Bikes/Tandem.html" class="btn waves-effect waves-block waves-dark deep-orange" id="tandem_puls">Przejdź do strony</a></p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title deep-orange-text">Tandem<i class="material-icons right">close</i></span>
+              <p>Tandem – rower przeznaczony dla dwóch lub więcej osób, siedzących w układzie jedna za drugą. 
+                Typowy tandem ma, tak samo jak rower jednoosobowy, jedną ramę i dwa koła, za to każda z osób ma własne:
+                 kierownicę, siodełko i pedały. Zdarzają się jednak także tandemy przeznaczone dla większej liczby osób.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m4">
+          <div class="card small">
+            <div class="card-image waves-effect waves-block waves-dark">
+              <img class="activator responsive-img" src="./src/Images/Bikes/Torowy.jpg">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator deep-orange-text">Torowy<i class="material-icons right">more_vert</i></span>
+              <p><a href="./Bikes/Torowy.html" class="btn waves-effect waves-block waves-dark deep-orange" id="torowy_puls">Przejdź do strony</a></p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title deep-orange-text">Torowy<i class="material-icons right">close</i></span>
+              <p>Rower torowy – lekki rower na kołach o średnicy 28 cali (w jeździe na czas używa się kół o pomniejszonej średnicy ok. 26 cali) 
+                służący do ścigania się po specjalnie przygotowanych torach zwanych welodromami, przypominających bieżnię lekkoatletyczną. 
+                Taką konkurencję nazywa się kolarstwem torowym.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--Otatni rząd, jak widać jest tutaj tylko jedna karta, która została pchnięta o 4 kolumny w prawo w celu wyśrodkowania-->
+      <div class="row">
+          <div class="col s12 m4 push-m4">
+            <div class="card small">
+              <div class="card-image waves-effect waves-block waves-dark">
+                <img class="activator responsive-img" src="./src/Images/Bikes/Trek.jpg">
+              </div>
+              <div class="card-content">
+                <span class="card-title activator deep-orange-text">Trekingowy<i class="material-icons right">more_vert</i></span>
+                <p><a href="./Bikes/Trekingowy.html" class="btn waves-effect waves-block waves-dark deep-orange" id="trekingowy_puls">Przejdź do strony</a></p>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title deep-orange-text">Trekingowy<i class="material-icons right">close</i></span>
+                <p>Rower trekkingowy – rower do uprawiania zaawansowanej turystyki rowerowej, polegającej na przemierzaniu długich, 
+                  często wielodniowych tras, zarówno po drogach asfaltowych jak i drogach o nawierzchni nieutwardzonej.</p>
+              </div>
+            </div>
+          </div>
+      </div>
+    </section>
+    <!--Tak jak poprzednio, footer i copyright-->
+    <footer class="page-footer grey darken-3">
+      <div class="container">
+        <div class="row">
+          <div class="col l6 s12">
+            <h5>O mnie</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at lacus congue.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at lacus congue, suscipit elit nec, tincidunt orci.</p>
+          </div>
+          <div class="col l4 offset-l2 s12">
+            <h5 class="white-text">Connect</h5>
+            <ul>
+              <li><a class="grey-text text-lighten-3" href="#">Facebook</a></li>
+              <li><a class="grey-text text-lighten-3" href="#">Twitter</a></li>
+              <li><a class="grey-text text-lighten-3" href="#">Linked In</a></li>
+              <li><a class="grey-text text-lighten-3" href="#">Instagram</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright grey darken-4">
+        <div class="container center-align">&copy; 2019 Michał Działek</div>
+      </div>
+    </footer>
+    <!--Załadowano jQuery-->
+    <script
+    src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+    crossorigin="anonymous"></script>
+
+    <!--Załadowany skrypty dla materialize-->
+    <script type="text/javascript" src="./src/scripts/materialize.min.js"></script>
+
+    <!--Podpinam własny plik ze skryptami dla pliku index.html-->
+    <script type="text/javascript" src="./src/scripts/index.js"></script>
+</body>
+</html>

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <!--Zaimportowano Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!--Zaimportowano font awesome dla ikonek do fb, ig, twittera etc.-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="../src/css/materialize.min.css"  media="screen,projection"/>
+
+    <!--Strona jest zoptymalizowana dla urządzeń mobilnych-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Rowerowex - Rowery są naszą pasją</title>
+    <style>
+        #header_Skladak {
+            background: url(../src/Images/Bikes/s_h.jpg);
+            background-size: cover;
+            background-position: center;
+            min-height: 500px;
+        }
+    </style>
+</head>
+<body>
+    <!--Tak samo jak poprzednio, header ze zdjęciem i navbarem dla monitorów i telefonów-->
+    <header id="header_Skladak">
+        <nav class="nav-wrapper deep-orange darken-4">
+            <div class="container">
+                <a href="#" class="brand-logo">Rowerowex - Składany</a>
+                <a href="#" class="sidenav-trigger" data-target="mobile-links">
+                    <i class="material-icons">menu</i>
+                </a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="../katalog.html" class="white-text">Powrót</a></li>
+                </ul>
+                <ul class="sidenav deep-orange darken-4" id="mobile-links">
+                    <li><a href="../katalog.html" class="white-text sidenav-close">Powrót</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <!--Tytuł i opis roweru-->
+    <section class="section container">
+        <h2 class="center-align deep-orange-text">Rower Składany</h2>
+        <p>Większość rowerów składanych posiada współcześnie, niewielkie, 14–24-calowe koła, można je błyskawicznie złożyć do rozmiarów wali
+          zki, co umożliwia ich łatwe transportowanie nawet w bardzo zatłoczonych środkach transportu publicznego. Są szczególnie popul
+          arne w wielkich aglomeracjach miejskich (zwłaszcza w Londynie, Nowym Jorku i Tokio) jako pojazd, służący do krótkich przejazdów o
+          d stacji metra do domu i miejsca pracy. Większość tych rowerów bazuje na konstrukcji "Bromptona", roweru zaprojektowanego w 1975 
+          r. przez Anglika, Andrew Ritchie.
+
+            Oprócz składanych rowerów miejskich, wielu producentów sprzedaje też składane rowery najrozmaitszych typów – poczynając 
+            od składanych rowerów górskich, przez rowery do zastosowań dla wojska i służb specjalnych (ze słynnym "Paratrooperem" na
+             czele), a kończąc na składanych "Holendrach" a nawet kolarskich rowerach szosowych.</p>
+    </section>
+    <footer class="page-footer grey darken-3">
+      <div class="container">
+        <div class="row">
+          <div class="col l6 s12">
+            <h5>O mnie</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at lacus congue.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at lacus congue, suscipit elit nec, tincidunt orci.</p>
+          </div>
+          <div class="col l4 offset-l2 s12">
+            <h5 class="white-text">Connect</h5>
+            <ul>
+              <li><a class="grey-text text-lighten-3" href="#">Facebook</a></li>
+              <li><a class="grey-text text-lighten-3" href="#">Twitter</a></li>
+              <li><a class="grey-text text-lighten-3" href="#">Linked In</a></li>
+              <li><a class="grey-text text-lighten-3" href="#">Instagram</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright grey darken-4">
+        <div class="container center-align">&copy; 2019 Michał Działek</div>
+      </div>
+    </footer>
+
+    <!--Załadowano jQuery-->
+    <script
+    src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+    crossorigin="anonymous"></script>
+
+    <!--Załadowany skrypty dla materialize-->
+    <script type="text/javascript" src="../src/scripts/materialize.min.js"></script>
+
+    <!--Podpinam własny plik ze skryptami dla pliku index.html-->
+    <script type="text/javascript" src="../src/scripts/index.js"></script>
+</body>
+</html>
